@@ -12,15 +12,31 @@ This project brings together a data-mining workflow, a trained Random Forest mod
 
 ### Overview
 
-![RouteRight AI landing page introducing incident reassignment risk prediction](app/frontend/preview/1.png)
+<p align="center">
+  <img src="app/frontend/preview/1.png" alt="RouteRight AI landing page" width="750">
+</p>
 
-### Triage workflow
+<details>
+<summary><strong> Triage Workflow - View Preview</strong></summary>
 
-![Illustrative comparison of traditional triage and triage with RouteRight AI](app/frontend/preview/2.png)
+<br>
 
-### Prediction console
+<p align="center">
+  <img src="app/frontend/preview/2.png" alt="Traditional triage vs RouteRight AI workflow" width="700">
+</p>
 
-![Ticket parameters form and assessment panel awaiting a prediction request](app/frontend/preview/3.png)
+</details>
+
+<details>
+<summary><strong> Prediction Console - View Preview</strong></summary>
+
+<br>
+
+<p align="center">
+  <img src="app/frontend/preview/3.png" alt="RouteRight AI prediction console" width="700">
+</p>
+
+</details>
 
 The overview uses illustrative scenarios. Its example recommendations, time savings, and latency claims are not measured guarantees or outputs of the prediction API.
 
@@ -32,7 +48,7 @@ The overview uses illustrative scenarios. Its example recommendations, time savi
 - Displays a reassignment verdict, probability, risk level, decision threshold, model name, and inference time.
 - Includes loading feedback, error messages, retry, and form reset.
 
-The interface includes an overview (`/`), a prediction console (`/predict`), and an explanation of the system (`/about`). Dropdown labels are local demo data mapped to anonymized dataset values; they are not a live service-desk directory.
+The interface includes an overview (`/`), a prediction console (`/predict`), and an explanation of the system (`/about`).
 
 ## Run locally
 
